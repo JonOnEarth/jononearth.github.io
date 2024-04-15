@@ -1,13 +1,30 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a doctoral candidate specializing in Electrical Engineering with a deep dive into Deep Learning, Federated Learning, and Bayesian methods. My expertise particularly gravitates towards enhancing indoor localization, Global Navigation Satellite Systems (GNSS), and image processing applications through innovative machine learning paradigms. My research has centered on three pivotal themes: Bayesian data fusion within Federated Learning, leveraging deep and Federated Learning for WiFi fingerprint-based indoor positioning and tracking, and applying these techniques for GNSS signal processing to stave off spoofing and jamming.
+
+In the current AI environment, where the technology’s pervasiveness is undeniable, the vital issues of data privacy, security, and equitable access require immediate attention. My current and future research efforts will focus on these concerns head-on through private, robust, equalable and interpretable Distributed Learning. These algorithms are carefully developed not only to meet the rigorous requirements of real-world applications but also to establish the foundation for Responsible AI—a paradigm in which AI systems are designed with accountability, transparency, and fairness at their core, ultimately resulting in more secure, inclusive, and trustworthy AI implementations.
+
+## Recent and past Research
+
+**Bayesian Federated Learning Framework**: Compared to FL, Bayesian FL enhances FL by leveraging the benefits of Bayesian inference. By integrating prior knowledge and inferring parameter distributions, this approach effectively captures the intrinsic statistical heterogeneity of FL models, which facilitates the quantification of uncertainties and model dynamics. Consequently, it fosters the development of more robust and interpretable federated models. However, papers combining Bayesian FL with data association mechanisms are notably absent, especially in clustered FL.
+By introducing this framework, I have laid the groundwork for a myriad of further investigations. The idea centralizes optimizing client-cluster associations within Federated Learning to gracefully handle non-independent and identically distributed (non-IID) data, a commonplace in practical applications. My work delineates a methodical approach for balancing performance with computational complexity, setting the stage for enhanced models and innovative client knowledge-sharing methodologies. One of my papers delving into this matter is currently undergoing review for In Conference on Machine Learning (ICML) 2024, and continuous efforts are underway to develop this concept further, such as incorporating a random number of clusters for optimization.
+
+**Robust Bayesian Data Fusion Framework**: The designed framework optimizes fusion accuracy while honoring privacy constraints and offers profound insights into distributed learning. Presenting a meticulous analysis of shared priors impact within Bayesian data fusion settings, published in Transactions on Signal Processing extends our understanding of distributed frameworks under a Bayesian lens, providing interpretability for Distributed Learning and Federated Learning systems.
+
+**Data Driven Machine Learning**: Throughout my academic journey, I have undertaken several machine learning projects that focus on indoor positioning, integrating machine learning methodologies and tracking algorithms to refine WiFi fingerprinting and tracking systems. This work has culminated in three peer-reviewed publications. In parallel, my endeavors in GNSS applications have led to groundbreaking data-driven methodologies that eclipse traditional strategies, particularly evident in GNSS signal acquisition, deep learning-based spoofing detection, and intricate modeling of multipath effects on GNSS correlation outputs. These collaborative efforts have resulted in over six published papers. 
+
+**Application to Real-world Problems**: 
+(1) Jammer Signal Classification: Addressing threats to GNSS operations, this application of Federated Learning for jamming signal classification safeguards data privacy while training robust, accurate classifiers. This groundbreaking work, which claimed the best paper award at ION PLANS 2023, takes significant strides in privacy-preserving collaborative learning.
+(2) Indoor Localization: I have explored personalized Federated Learning and model reliability with dropout to tackle the challenges of non-IID data for indoor localization, with outcomes indicating significant improvements over traditional techniques, charting a path closer to centralized learning effectiveness.
+
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -46,4 +63,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
