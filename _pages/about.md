@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a doctoral candidate specializing in Electrical Engineering with a deep dive into Deep Learning, Federated Learning, and Bayesian methods. My expertise particularly gravitates towards enhancing indoor localization, Global Navigation Satellite Systems (GNSS), and image processing applications through innovative machine learning paradigms. My research has centered on three pivotal themes: Bayesian data fusion within Federated Learning, leveraging deep and Federated Learning for WiFi fingerprint-based indoor positioning and tracking, and applying these techniques for GNSS signal processing to stave off spoofing and jamming.
+I am a doctoral candidate specializing in Electrical Engineering in Northeastern University, with a deep dive into Deep Learning, Federated Learning, and Bayesian methods. 
+
+My expertise particularly gravitates towards enhancing indoor localization, Global Navigation Satellite Systems (GNSS), and image processing applications through innovative machine learning paradigms. My research has centered on three pivotal themes: Bayesian data fusion within Federated Learning, leveraging deep and Federated Learning for WiFi fingerprint-based indoor positioning and tracking, and applying these techniques for GNSS signal processing to stave off spoofing and jamming.
 
 In the current AI environment, where the technology’s pervasiveness is undeniable, the vital issues of data privacy, security, and equitable access require immediate attention. My current and future research efforts will focus on these concerns head-on through private, robust, equalable and interpretable Distributed Learning. These algorithms are carefully developed not only to meet the rigorous requirements of real-world applications but also to establish the foundation for Responsible AI—a paradigm in which AI systems are designed with accountability, transparency, and fairness at their core, ultimately resulting in more secure, inclusive, and trustworthy AI implementations.
 
@@ -23,6 +25,39 @@ By introducing this framework, I have laid the groundwork for a myriad of furthe
 **Application to Real-world Problems**: 
 (1) Jammer Signal Classification: Addressing threats to GNSS operations, this application of Federated Learning for jamming signal classification safeguards data privacy while training robust, accurate classifiers. This groundbreaking work, which claimed the best paper award at ION PLANS 2023, takes significant strides in privacy-preserving collaborative learning.
 (2) Indoor Localization: I have explored personalized Federated Learning and model reliability with dropout to tackle the challenges of non-IID data for indoor localization, with outcomes indicating significant improvements over traditional techniques, charting a path closer to centralized learning effectiveness.
+
+# Publications
+- Wu, Peng, Imbiriba, Tales, LaMountain, Gerald, Vilá-Valls, Jordi, and Closas, Pau. (2019). Wifi fingerprinting and tracking using neural networks. *Proceedings of the 32nd International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2019)*, 2314--2324.
+
+- Imbiriba, Tales, Wu, Peng, LaMountain, Gerald, Erdoğmuş, Deniz, and Closas, Pau. (2020). Recursive Gaussian processes and fingerprinting for indoor navigation. *2020 IEEE/ION Position, Location and Navigation Symposium (PLANS)*, 933--940. IEEE.
+
+- Borhani-Darian, Parisa, Li, Haoqing, Wu, Peng, and Closas, Pau. (2020). Deep neural network approach to detect GNSS spoofing attacks. *Proceedings of the 33rd International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2020)*, 3241--3252.
+
+- Imbiriba, Tales, LaMountain, Gerald, Wu, Peng, Erdoğmuş, Deniz, and Closas, Pau. (2019). Change detection and Gaussian process inference in piecewise stationary environments under noisy inputs. *2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)*, 530--534. IEEE.
+
+- Li, Haoqing, Borhani-Darian, Parisa, Wu, Peng, and Closas, Pau. (2020). Deep learning of GNSS signal correlation. *Proceedings of the 33rd International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2020)*, 2836--2847.
+
+- Wu, Peng, Imbiriba, Tales, Park, Junha, Kim, Sunwoo, and Closas, Pau. (2021). Personalized federated learning over non-iid data for indoor localization. *2021 IEEE 22nd International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)*, 421--425. IEEE.
+
+- Park, Junha, Moon, Jiseon, Kim, Taekyoon, Wu, Peng, Imbiriba, Tales, Closas, Pau, and Kim, Sunwoo. (2022). Federated learning for indoor localization via model reliability with dropout. *IEEE Communications Letters*, 26(7), 1553--1557. IEEE.
+
+- Li, Haoqing, Borhani-Darian, Parisa, Wu, Peng, and Closas, Pau. (2022). Deep neural network correlators for GNSS multipath mitigation. *IEEE Transactions on Aerospace and Electronic Systems*, 59(2), 1249--1259. IEEE.
+
+- Wu, Peng, Imbiriba, Tales, Elvira, Víctor, and Closas, Pau. (2023). Bayesian data fusion with shared priors. *IEEE Transactions on Signal Processing*. IEEE.
+
+- Borhani-Darian, Parisa, Li, Haoqing, Wu, Peng, and Closas, Pau. (2023). Deep learning of GNSS acquisition. *Sensors*, 23(3), 1566. MDPI.
+
+- Darian, Parisa Borhani, Li, Haoqing, Wu, Peng, and Closas, Pau. (2023). Detecting GNSS spoofing using deep learning.
+
+- Wu, Peng, Calatrava, Helena, Imbiriba, Tales, and Closas, Pau. (2023). Jammer classification with federated learning. *2023 IEEE/ION Position, Location and Navigation Symposium (PLANS)*, 228--234. IEEE.
+
+- Peng, Wu, Guang-Jun, Ren, Jian-Quan, Yao, and others. (2014). Thermal tunability and sensitivity of bandgap photonic crystal fiber of terahertz wave. *Optoelectronics and Advanced Materials-Rapid Communications*, 8(July-August 2014), 775--778. OAM-RC.
+
+- Li, Haoqing, Tang, Shuo, Wu, Peng, and Closas, Pau. (2023). Robust Interference Mitigation Techniques for Direct Position Estimation. *IEEE Transactions on Aerospace and Electronic Systems*. IEEE.
+
+- Borhani-Darian, Parisa, Li, Haoqing, Wu, Peng, and Closas, Pau. (2024). Detecting GNSS spoofing using deep learning. *EURASIP Journal on Advances in Signal Processing*, 2024(1), 14. Springer International Publishing Cham.
+
+- Wu, Peng, Imbiriba, Tales, and Closas, Pau. (2023). A Bayesian Framework for Clustered Federated Learning.
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
