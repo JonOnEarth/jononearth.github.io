@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Peng Wu"
   pronouns         : # example: "she/her"  
-  bio              : "A sci-fi fan, a researcher, a dreamer."
-  location         : "Earth"
+  bio              : "A sci-fi fan, a researcher."
+  location         : "Mars"
   employer         : #" University"
   uri              : # URL
   email            : wu.p@northeastern.edu #"none@example.org" 
