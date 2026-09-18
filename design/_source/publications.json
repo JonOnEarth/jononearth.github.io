@@ -1,0 +1,122 @@
+[
+  {
+    "id": "exact-fusion-exploration",
+    "summary": "Robot teams share new evidence and account for teammates’ plans, addressing repeated information and redundant exploration.",
+    "year": 2026,
+    "title": "Exact Fusion and Coordinated Exploration in Multi-Robot Active Inference",
+    "authors": ["Peng Wu", "Mohsen Imani", "Amidu Kamara", "Md Tamzeed Islam", "Seyede Fatemeh Ghoreishi", "Mahdi Imani"],
+    "venue": "arXiv:2609.17384",
+    "short_venue": "arXiv",
+    "topics": ["learning", "multi-agent"],
+    "url": "https://arxiv.org/html/2609.17384",
+    "status": "Preprint",
+    "link_label": "Preprint"
+  },
+  {
+    "id": "bayesian-clustered-learning",
+    "summary": "A Bayesian approach to grouping clients and learning personalized models from heterogeneous data.",
+    "year": 2026,
+    "title": "A Bayesian Framework for Clustered Federated Learning",
+    "authors": ["Peng Wu", "Tales Imbiriba", "Pau Closas"],
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence · 48(3), 3471–3481",
+    "short_venue": "IEEE TPAMI",
+    "topics": ["learning"],
+    "url": "https://doi.org/10.1109/TPAMI.2025.3637562"
+  },
+  {
+    "id": "robust-engagement",
+    "year": 2026,
+    "title": "Robust Engagement Estimation in Mixed Reality Under Cognitive Attack",
+    "authors": ["Peng Wu", "K. Huang", "M. Zhu", "Z. Zhou", "J. Jiang", "N. Ahmed", "M. M. Hassan", "S. Hong", "B. Li", "R. Islam", "T. Lan", "G. Tan", "M. Imani"],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics · ISMAR 2026",
+    "short_venue": "IEEE TVCG / ISMAR 2026",
+    "topics": ["mixed-reality"]
+  },
+  {
+    "id": "dpmm-cfl",
+    "year": 2026,
+    "title": "DPMM-CFL: Clustered Federated Learning via Dirichlet Process Mixture Model Nonparametric Clustering",
+    "authors": ["Mariona Jaramillo-Civill", "Peng Wu", "Pau Closas"],
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "short_venue": "IEEE ICASSP",
+    "topics": ["learning"],
+    "url": "https://arxiv.org/abs/2510.07132",
+    "status": "Accepted",
+    "link_label": "Preprint"
+  },
+  {
+    "id": "cybersickness-verification",
+    "summary": "Bayesian networks connect human-state observations to cybersickness, with probabilistic checks of risk properties within the model.",
+    "year": 2025,
+    "title": "Probabilistic Verification of Cybersickness in Virtual Reality Through Bayesian Networks",
+    "authors": ["Peng Wu", "Nasim Ahmed", "Abhiram Sarma", "Kaiming Huang", "Rifatul Islam", "Bin Li", "Tian Lan", "Gang Tan", "Mahdi Imani"],
+    "venue": "IEEE International Symposium on Mixed and Augmented Reality · 782–792",
+    "short_venue": "IEEE ISMAR",
+    "topics": ["mixed-reality", "learning"],
+    "url": "https://lightninghkm.github.io/files/ISMAR25.pdf",
+    "link_label": "PDF"
+  },
+  {
+    "id": "posterior-sharing",
+    "summary": "Agents share probabilistic knowledge of their environment to support collaborative learning and decision-making.",
+    "year": 2025,
+    "title": "Federated Posterior Sharing for Multi-Agent Systems in Uncertain Environments",
+    "authors": ["Yuxi Wang", "Peng Wu", "Mahdi Imani"],
+    "venue": "Learning for Dynamics & Control · PMLR 283, 817–829",
+    "short_venue": "L4DC",
+    "topics": ["learning", "multi-agent"],
+    "url": "https://proceedings.mlr.press/v283/wang25e.html"
+  },
+  {
+    "id": "personalized-jamming",
+    "year": 2025,
+    "title": "Federated Learning of Jamming Classifiers: From Global to Personalized Models",
+    "authors": ["Peng Wu", "Helena Calatrava", "Tales Imbiriba", "Pau Closas"],
+    "venue": "NAVIGATION: Journal of the Institute of Navigation · 72(1)",
+    "short_venue": "NAVIGATION",
+    "topics": ["learning", "sensing"],
+    "url": "https://doi.org/10.33012/navi.688"
+  },
+  {
+    "id": "human-task-performance",
+    "year": 2025,
+    "title": "Human Task Performance and Associated Internal States in Extended Reality: A Systematic Review of Cognitive, Psychophysiological, and Physiological Dimensions",
+    "authors": ["Nasim Ahmed", "Peng Wu", "Kaiming Huang", "Sungchul Jung", "Hansol Rheem", "Gang Tan", "Mahdi Imani", "Rifatul Islam"],
+    "venue": "Frontiers in Virtual Reality · 6, 1589256",
+    "short_venue": "Frontiers in Virtual Reality",
+    "topics": ["mixed-reality"],
+    "url": "https://doi.org/10.3389/frvir.2025.1589256"
+  },
+  {
+    "id": "shared-priors",
+    "summary": "Combining local Bayesian models while accounting for shared prior information, so common evidence is not counted twice.",
+    "year": 2024,
+    "title": "Bayesian Data Fusion with Shared Priors",
+    "authors": ["Peng Wu", "Tales Imbiriba", "Víctor Elvira", "Pau Closas"],
+    "venue": "IEEE Transactions on Signal Processing · 72, 275–288",
+    "short_venue": "IEEE TSP",
+    "topics": ["learning"],
+    "url": "https://doi.org/10.1109/TSP.2023.3343564"
+  },
+  {
+    "id": "gnss-spoofing",
+    "year": 2024,
+    "title": "Detecting GNSS Spoofing Using Deep Learning",
+    "authors": ["Parisa Borhani-Darian", "Haoqing Li", "Peng Wu", "Pau Closas"],
+    "venue": "EURASIP Journal on Advances in Signal Processing · 2024, Article 14",
+    "short_venue": "EURASIP JASP",
+    "topics": ["sensing"],
+    "url": "https://doi.org/10.1186/s13634-023-01103-1"
+  },
+  {
+    "id": "jammer-classification",
+    "year": 2023,
+    "title": "Jammer Classification with Federated Learning",
+    "authors": ["Peng Wu", "Helena Calatrava", "Tales Imbiriba", "Pau Closas"],
+    "venue": "IEEE/ION Position, Location and Navigation Symposium · 228–234",
+    "short_venue": "IEEE/ION PLANS",
+    "topics": ["learning", "sensing"],
+    "url": "https://doi.org/10.1109/PLANS53410.2023.10140124",
+    "award": "Track C Best Paper Award"
+  }
+]

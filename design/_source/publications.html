@@ -1,0 +1,29 @@
+<header class="page-heading">
+  <h1>Publications</h1>
+  <p>Research behind my work on trustworthy AI: Bayesian and federated learning, reliable information sharing, mixed-reality safety, and resilient sensing. Browse the selected papers by topic or search by title, author, venue, or year.</p>
+  <div class="hero-actions"><a class="text-link" href="https://scholar.google.com/citations?user=uh14vcAAAAAJ">Full publication record on Google Scholar <span class="arrow" aria-hidden="true">↗</span></a></div>
+</header>
+
+<div class="publication-tools">
+  <div class="filter-row">
+    <div class="filters" role="group" aria-label="Filter publications by topic">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All work</button>
+      <button class="filter" type="button" data-filter="learning" aria-pressed="false">Bayesian &amp; federated</button>
+      <button class="filter" type="button" data-filter="multi-agent" aria-pressed="false">Multi-agent</button>
+      <button class="filter" type="button" data-filter="mixed-reality" aria-pressed="false">Mixed reality</button>
+      <button class="filter" type="button" data-filter="sensing" aria-pressed="false">Sensing</button>
+    </div>
+    <label class="search-wrap" for="publication-search"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="m12 12 5 5" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only">Search publications by title, author, venue, or year</span><input type="search" id="publication-search" placeholder="Search publications…" autocomplete="off"></label>
+  </div>
+  <p class="result-count" id="result-count" role="status" aria-live="polite">{{publication_count}} selected publications</p>
+</div>
+
+<noscript><p class="publication-note">All selected publications are shown below. Topic filters and search need JavaScript.</p></noscript>
+
+<div data-publications aria-label="Selected publication list">
+  {{all_publications}}
+</div>
+<div class="empty-state" id="empty-state" hidden><h2>No papers match that search.</h2><p>Try a different topic, title, author, or year.</p><button class="button secondary" id="reset-filters" type="button">Clear filters</button></div>
+<p class="publication-note">Author order follows the publication record. Preprints and accepted work are labeled explicitly. See <a href="https://scholar.google.com/citations?user=uh14vcAAAAAJ">Google Scholar</a> for the broader publication record.</p>
+
+<nav class="page-next" aria-label="Continue exploring"><span>The questions connecting these papers</span><a href="research.html">Read about my research <span aria-hidden="true">↗</span></a></nav>

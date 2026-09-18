@@ -1,0 +1,52 @@
+<header class="page-heading play-heading">
+  <div><div class="eyebrow"><span class="dot"></span> A little research. A little play.</div><h1>Small worlds.<br><em>Big what-ifs.</em></h1><p>Take a rover for a wander. Figure something out.<br>Leave a little star to say you were here.</p></div>
+  <div class="play-heading-art" aria-hidden="true"><span class="sketch-orbit"></span><span class="sketch-planet">✳</span><span class="sketch-satellite">✦</span><span class="hand-note">curiosity is enough ↙</span></div>
+</header>
+<nav class="play-tabs" aria-label="On this page"><a href="#lost-rovers">01 <span>Lost Rovers</span> ↘</a><a href="#constellation">02 <span>Leave a star</span> ↘</a></nav>
+
+<div id="cosmic-app">
+  <section class="mission-section" id="lost-rovers" aria-labelledby="mission-title">
+    <div class="mission-heading"><div><span class="notebook-kicker">FIELD EXPERIMENT 001 / MULTI-AGENT EXPLORATION</span><h2 id="mission-title">Lost Rovers<span class="tiny-star" aria-hidden="true">✳</span></h2><p>Three rovers. An incomplete map. Find three supply pods before the batteries run out.</p></div><span class="mission-stamp">12 rounds<br><strong>One shared world.</strong></span></div>
+    <div class="mission-console">
+      <div class="mission-board-panel">
+        <div class="board-top"><span id="sector-name">SECTOR 0428</span><span><i class="live-dot" aria-hidden="true"></i> <span id="map-caption">Shared map</span></span></div>
+        <div class="rover-board" id="rover-board" role="group" aria-label="Planet map. Select a rover, then a neighboring tile to plan a move."></div>
+        <div class="board-legend"><span><i class="legend-fog"></i> Unknown</span><span><i class="legend-rock"></i> Crater</span><span><i class="legend-supply">✦</i> Supply pod</span><span><i class="legend-trail"></i> Planned move</span></div>
+        <div class="mission-readout"><div><strong id="round-count">12</strong><span>rounds left</span></div><div><strong id="supply-count">0 / 3</strong><span>pods recovered</span></div><div><strong id="coverage-count">0%</strong><span>team coverage</span></div></div>
+      </div>
+      <div class="mission-controls">
+        <fieldset class="map-mode"><legend>How will your team share?</legend><div class="mode-options"><label><input type="radio" name="map-mode" value="shared" checked><span>Shared map</span></label><label><input type="radio" name="map-mode" value="private"><span>Private maps</span></label></div><p id="mode-description">Everyone’s discoveries and planned moves are visible together.</p></fieldset>
+        <div class="control-step"><span class="step-number">1</span><h3>Choose your rover</h3></div>
+        <div class="rover-selector" id="rover-selector" role="group" aria-label="Select rover"></div>
+        <div class="control-step"><span class="step-number">2</span><h3>Plan the next step</h3></div>
+        <p class="control-hint">Tap a neighboring tile, or use the arrows. Plan for all three; unplanned rovers wait.</p>
+        <div class="steering"><div class="direction-pad" role="group" aria-label="Plan a move for the selected rover"><button type="button" data-direction="up" aria-label="Plan north">↑</button><button type="button" data-direction="left" aria-label="Plan west">←</button><button type="button" data-direction="stay" aria-label="Wait here">·</button><button type="button" data-direction="right" aria-label="Plan east">→</button><button type="button" data-direction="down" aria-label="Plan south">↓</button></div><p id="plan-summary">Moss is waiting.<br>Pip is waiting.<br>Nova is waiting.</p></div>
+        <button class="cosmic-button move-button" id="move-team" type="button" disabled>Move the team <span aria-hidden="true">↗</span></button>
+        <p class="mission-message" id="mission-message" role="status" aria-live="polite">Start with Moss. Where should the team look first?</p>
+        <div class="mission-reset"><button class="quiet-button" id="restart-mission" type="button">↻ Same planet</button><button class="quiet-button" id="new-planet" type="button">✳ Another planet</button></div>
+      </div>
+    </div>
+    <div class="mission-result" id="mission-result" hidden tabindex="-1">
+      <span class="notebook-kicker">EXPEDITION LOG</span><h3 id="result-title">A little more of the unknown, known.</h3><p id="result-copy"></p><p id="comparison-copy" class="comparison-copy" hidden></p>
+      <div class="result-actions"><button class="cosmic-button" id="save-run" type="button">Save this run to my star <span aria-hidden="true">✦</span></button><button class="quiet-button" id="compare-mission" type="button">Try the other sharing mode ↗</button></div><p id="save-status" class="form-feedback" role="status"></p>
+      <details class="replay-details"><summary>Trace the expedition</summary><label for="replay-step">Round <output id="replay-label">0</output></label><input id="replay-step" type="range" min="0" max="12" value="0"><p>Move the slider to replay the team’s discoveries on the map above.</p></details>
+    </div>
+    <details class="science-note"><summary><span aria-hidden="true">◎</span> There’s a research question hiding in here. <span class="science-toggle" aria-hidden="true">+</span></summary><div><h3>What do we know—and what will our teammates learn next?</h3><p>Every rover sees a small part of the same world. Sharing discoveries makes that picture more complete. Sharing plans can help a team avoid spending its next move on the same place.</p><p>This is a small exploration puzzle inspired by my work on multi-agent decisions. Coverage counts each observed tile once, even when several rovers see it. The game uses exact tile observations and free communication; it does not implement the paper’s probabilistic inference or reproduce its experiments. Private-map mode shows one rover’s knowledge at a time; you can switch rovers and remember what you saw.</p><a class="text-link" href="https://arxiv.org/html/2609.17384">Exact Fusion and Coordinated Exploration in Multi-Robot Active Inference <span aria-hidden="true">↗</span></a><a class="text-link" href="research.html#multi-agent">More about this research <span aria-hidden="true">↗</span></a></div></details>
+  </section>
+
+  <section class="constellation-section" id="constellation" aria-labelledby="constellation-title">
+    <div class="notebook-section-title"><div><span class="notebook-kicker">A SMALL UNIVERSE, MADE BY ITS VISITORS</span><h2 id="constellation-title">Leave a little light.</h2></div><span class="hand-note">there’s room for your star ↙</span></div>
+    <p class="constellation-intro">Choose a spot in the sky. Make it yours. You can save your expeditions here, or leave me a little message.</p>
+    <div class="constellation-layout">
+      <div class="sky-panel"><div class="sky-top"><span id="sky-count">A sky waiting for its first star</span><button class="quiet-button" id="refresh-sky" type="button" aria-label="Refresh constellation">↻ Refresh</button></div><div class="star-sky" id="star-sky" role="group" aria-label="Visitor constellation"></div><p id="sky-caption">Your own small corner of the cosmos.</p></div>
+      <div class="star-panel">
+        <p class="storage-note" id="storage-note" role="status">Checking the sky…</p>
+        <form id="star-form"><h3>A star of your own.</h3><label for="star-name">A name, if you like</label><input id="star-name" name="name" maxlength="32" autocomplete="off" placeholder="A passing explorer"><fieldset class="star-palette"><legend>Choose your light</legend><label class="swatch swatch-gold"><input type="radio" name="star-color" value="gold" checked><span>Gold</span></label><label class="swatch swatch-sage"><input type="radio" name="star-color" value="sage"><span>Sage</span></label><label class="swatch swatch-lilac"><input type="radio" name="star-color" value="lilac"><span>Lilac</span></label><label class="swatch swatch-coral"><input type="radio" name="star-color" value="coral"><span>Coral</span></label></fieldset><label for="star-location">A place in the sky</label><select id="star-location"><option value="18,32">West · a quiet corner</option><option value="48,26" selected>North · a little above it all</option><option value="78,39">East · room to wander</option><option value="34,69">Southwest · close to home</option><option value="68,72">Southeast · something new</option></select><p class="form-note">Or tap an empty spot in the sky.</p><button class="cosmic-button" type="submit">Leave my star <span aria-hidden="true">✦</span></button><p class="form-note">Your star and nickname are visible in this constellation. Messages to Peng stay private.</p></form>
+        <div id="my-star" hidden><span class="notebook-kicker" id="explorer-number">YOUR STAR</span><h3 id="explorer-name">Welcome, explorer.</h3><p id="star-welcome">A little light to find your way back to.</p><div class="star-badges" id="star-badges"></div><p id="run-count" class="form-note"></p><div id="visitor-history"></div><div class="reply-note" id="peng-reply" hidden><span class="notebook-kicker">A NOTE FROM PENG</span><p></p></div><form id="message-form"><label for="star-message">Leave Peng a note</label><textarea id="star-message" rows="3" maxlength="400" placeholder="A question about the rovers, a thought, a wave…" required></textarea><button class="cosmic-button secondary-button" type="submit">Send a little signal <span aria-hidden="true">↗</span></button><p class="form-note" id="message-privacy">Only Peng and this browser can read your message and the reply.</p></form><button type="button" class="quiet-button forget-star" id="forget-star">Forget this star on this browser</button></div>
+        <p id="star-feedback" class="form-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <p class="constellation-footnote">Stars count explorers who chose to check in. Your browser remembers yours. Save a run when you want it added to your history.</p>
+  </section>
+</div>
+<noscript><style>#cosmic-app,.play-tabs { display:none; }</style><div class="science-note">The rover game and constellation need JavaScript. You can still explore the <a class="text-link" href="research.html#multi-agent">research and papers ↗</a>.</div></noscript>

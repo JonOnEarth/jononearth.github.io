@@ -1,0 +1,7 @@
+<header class="page-heading"><div class="eyebrow"><span class="dot"></span> For Peng / Private visitor history</div><h1>Little traces.<br><em>From passing explorers.</em></h1><p>See who left a star, manage the constellation, and revisit older saved discoveries.</p></header>
+<section id="owner-app">
+  <form class="owner-login" id="owner-login"><h2>Open the notebook.</h2><p>Use the owner key created by the preview server. It is stored in <code>local/cosmic-notebook/owner-key</code>, outside the website files.</p><label for="owner-key">Owner key</label><input id="owner-key" type="password" autocomplete="off" required><button class="cosmic-button" type="submit">Open visitor history <span aria-hidden="true">↗</span></button></form>
+  <p class="form-feedback" id="owner-feedback" role="status"></p>
+  <div id="owner-content" hidden><div class="owner-bar"><div class="owner-stats" id="owner-stats"></div><div><button class="quiet-button" id="owner-refresh" type="button">Refresh history</button> · <button class="quiet-button" id="owner-export" type="button">Export all history</button> · <button class="quiet-button" id="owner-logout" type="button">Lock notebook</button></div></div><p class="form-note">Showing up to 250 explorers and their latest 60 events. Export includes the complete history.</p><div id="owner-entries"></div></div>
+</section>
+<noscript><p>JavaScript is needed to open the private visitor log.</p></noscript>

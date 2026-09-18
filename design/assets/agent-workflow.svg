@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="368" viewBox="0 0 600 368">
+  <rect width="600" height="368" fill="#222e46"/>
+  <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#38445b"/></pattern></defs>
+  <rect width="600" height="368" fill="url(#dots)"/>
+  <g fill="none" stroke="#7689ac" stroke-width="1.2"><path d="M186 177h84M330 177h62M300 211v60h92M300 143V83h92"/><path d="m385 77 7 6-7 6m0 82 7 6-7 6m0 82 7 6-7 6"/></g>
+  <rect x="69" y="143" width="117" height="68" rx="4" fill="#2d3c57" stroke="#607497"/>
+  <g fill="none" stroke="#d4def0" stroke-width="1.5"><path d="M103 162h49v25h-30l-11 8v-8h-8z"/><path d="M114 171h27m-27 7h19"/></g>
+  <circle cx="300" cy="177" r="34" fill="#a9bcf8"/>
+  <g fill="none" stroke="#263c72" stroke-width="1.6"><ellipse cx="300" cy="177" rx="21" ry="8" transform="rotate(-45 300 177)"/><ellipse cx="300" cy="177" rx="21" ry="8" transform="rotate(45 300 177)"/></g>
+  <circle cx="300" cy="177" r="3" fill="#263c72"/>
+  <g fill="#2d3c57" stroke="#607497"><rect x="392" y="58" width="143" height="50" rx="4"/><rect x="392" y="152" width="143" height="50" rx="4"/><rect x="392" y="246" width="143" height="50" rx="4"/></g>
+  <g font-family="monospace" font-size="11" fill="#d8e2f5"><text x="421" y="87">ANALYZE</text><text x="421" y="181">AUTOMATE</text><text x="421" y="275">CREATE</text></g>
+  <g font-family="monospace" font-size="9" letter-spacing="1.5" fill="#a8b9d7"><text x="25" y="28">CONVERSATIONAL AI</text><text x="398" y="345">IDEAS → ACTION</text></g>
+</svg>

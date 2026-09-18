@@ -1,0 +1,179 @@
+/* The selected Notebook direction. Other design concepts keep their own styles. */
+.notebook-site {
+  --personal-ink: #30473b;
+  --personal-muted: #596b5d;
+  --personal-line: #d5dacb;
+  --personal-accent: #885936;
+  color: var(--personal-ink);
+}
+.notebook-site .wrap { width: min(1040px, calc(100% - 80px)); }
+.notebook-site .concept-header { padding: 25px 0; border-bottom: 1px solid var(--personal-line); }
+.notebook-site .concept-header .personal-brand { font-size: 19px; font-weight: 500; letter-spacing: -.5px; gap: 14px; }
+.notebook-site .personal-brand .brand-hanzi { display: inline; font-size: 13px; letter-spacing: 2px; opacity: .75; }
+.notebook-site .concept-header nav { gap: 24px; font-size: 13px; }
+.notebook-site .header-star { background: transparent; border-color: #bdc8af; font-size: 13px; min-height: 42px; }
+.notebook-site .header-star:hover { background: #e9eddd; }
+.notebook-site .notebook-kicker, .notebook-site .eyebrow { font-family: inherit; font-size: 12px; letter-spacing: .2px; color: var(--personal-muted); }
+.notebook-site .notebook-inline-link, .notebook-site .text-link { font-size: 13px; text-decoration-thickness: 1px; }
+.notebook-site .concept-footer { border-top: 1px solid var(--personal-line); margin-top: 30px; padding: 24px 0 16px; line-height: 1.8; }
+.notebook-site .preview-link { padding-bottom: 25px; font-size: 12px; color: var(--personal-muted); }
+.notebook-site .preview-link a { display: inline-block; padding: 5px 0; text-decoration: underline; text-underline-offset: 3px; }
+
+/* A person first: a direct introduction and an unframed, real photograph. */
+.notebook-site .notebook-hero { grid-template-columns: minmax(0, 1fr) 260px; gap: 90px; align-items: start; padding: 65px 0 60px; }
+.notebook-site .notebook-copy h1 { font: 400 72px/1.05 "Instrument Serif", Georgia, serif; letter-spacing: -1.8px; margin: 0; }
+.notebook-site .notebook-copy .notebook-lead { font-size: 22px; line-height: 1.6; margin-top: 23px; color: var(--personal-ink); max-width: 560px; }
+.notebook-site .notebook-lead strong { font: inherit; font-weight: 500; text-decoration: underline; text-decoration-color: #bc985d; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+.notebook-site .notebook-copy .intro-details { font-size: 15px; line-height: 1.9; margin-top: 20px; color: var(--personal-muted); }
+.notebook-site .intro-details a { color: var(--personal-ink); text-decoration: underline; text-decoration-color: #bac5b2; text-underline-offset: 3px; }
+.notebook-site .notebook-link { color: var(--personal-accent); border-color: #bc9875; font-size: 13px; margin-top: 14px; }
+.notebook-site .intro-portrait { margin-top: 8px; }
+.notebook-site .intro-portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 35%; border-radius: 3px; }
+.notebook-site .intro-portrait figcaption { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; font-size: 12px; color: var(--personal-muted); }
+.notebook-site .intro-portrait figcaption [lang] { font-size: 14px; letter-spacing: 3px; }
+
+/* Use the shape of the content: research rows, a pair of projects, paper citations. */
+.notebook-site .notebook-section { margin-top: 50px; }
+.notebook-site .notebook-work { margin-top: 0; }
+.notebook-site .notebook-section-title { padding: 0 0 21px; align-items: baseline; }
+.notebook-site .notebook-section-title h2 { font-size: 27px; font-weight: 500; letter-spacing: -.6px; }
+.notebook-site .notebook-section-title > a { flex-shrink: 0; }
+.notebook-site .notebook-section-intro { max-width: 740px; font-size: 15px; line-height: 1.85; margin: -4px 0 25px; }
+.notebook-site .research-index { border-top: 1px solid var(--personal-line); }
+.notebook-site .research-index-row { display: grid; grid-template-columns: 130px minmax(0, 1fr) 24px; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--personal-line); align-items: baseline; }
+.notebook-site .research-index-topic { font-size: 12px; color: var(--personal-accent); }
+.notebook-site .research-index h3 { font-size: 20px; font-weight: 500; letter-spacing: -.3px; line-height: 1.5; }
+.notebook-site .research-index p { font-size: 14px; line-height: 1.85; color: var(--personal-muted); margin-top: 6px; max-width: 640px; }
+.notebook-site .research-index-arrow { font-size: 21px; color: #77856c; }
+.notebook-site .research-index-row:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.notebook-site .research-index-row:hover .research-index-arrow { color: var(--personal-accent); }
+.notebook-site .notebook-build-grid { grid-template-columns: 1.15fr 1fr; gap: 55px; }
+.notebook-site .notebook-build-feature, .notebook-site .notebook-sensing { padding: 23px 0 0; background: none; border: 0; border-top: 2px solid #a7b594; border-radius: 0; }
+.notebook-site .notebook-sensing { border-top-color: #c9af8e; }
+.notebook-site .build-heading { margin-bottom: 13px; }
+.notebook-site .notebook-build-grid h3 { font-size: 24px; letter-spacing: -.6px; }
+.notebook-site .notebook-sensing h3 { margin-top: 13px; }
+.notebook-site .notebook-build-grid p { font-size: 15px; line-height: 1.85; }
+.notebook-site .notebook-details { border-block-style: solid; border-color: var(--personal-line); }
+.notebook-site .notebook-award { margin-top: 20px; }
+.notebook-site .notebook-award > span:first-child { font-size: 25px; }
+.notebook-site .notebook-paper { grid-template-columns: 130px 1fr; gap: 24px; padding: 25px 0 17px; }
+.notebook-site .notebook-paper h3 { font-size: 18px; }
+.notebook-site .paper-date { font: 12px/1.7 "DM Sans", sans-serif; }
+.notebook-site .paper-takeaway { font-size: 14px; }
+.notebook-site .paper-details summary { font-size: 13px; }
+.notebook-site .notebook-bio { grid-template-columns: 220px 1fr; gap: 55px; padding: 40px 0 0; border-top: 1px solid var(--personal-line); align-items: start; }
+.notebook-site .background-label h2 { font: 400 42px/1.14 "Instrument Serif", Georgia, serif; letter-spacing: -.6px; margin-top: 13px; }
+.notebook-site .notebook-bio-copy p { font-size: 15px; line-height: 1.9; }
+.notebook-site .notebook-bio-copy p:first-child { margin-top: 0; }
+
+/* Keep the cosmic details where there is something to play with. */
+.notebook-site .notebook-space-note { display: grid; grid-template-columns: 1fr 300px; align-items: center; gap: 45px; margin-top: 40px; padding: 28px 0 8px; border-top: 1px solid var(--personal-line); }
+.notebook-site .notebook-space-note h2 { font: 500 27px/1.3 "DM Sans", sans-serif; margin-top: 10px; letter-spacing: -.6px; }
+.notebook-site .notebook-space-note .three-suns-card { background: none; border: 0; box-shadow: none; transform: none; width: 100%; }
+.notebook-site .notebook-space-note .three-suns-card::before { content: none; }
+.notebook-site .notebook-space-note .paper-top { padding: 0; justify-content: center; font: 12px/1.6 "DM Sans", sans-serif; letter-spacing: 1px; }
+.notebook-site .notebook-space-note .three-suns-scene { max-height: 190px; }
+.notebook-site .notebook-space-note figcaption { flex-direction: column; font-size: 12px; gap: 5px; padding: 0; }
+.notebook-site .remix-button { border: 0; background: none; border-radius: 0; color: var(--personal-accent); font-size: 13px; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; }
+.notebook-site .remix-button:hover { text-decoration-thickness: 2px; }
+.notebook-site .visitor-constellation { padding: 32px 0 16px; border: 0; border-top: 1px solid var(--personal-line); border-radius: 0; background: none; gap: 55px; margin-top: 26px; }
+.notebook-site .constellation-copy h2 { margin-top: 0; font-size: 38px; }
+.notebook-site .constellation-copy p { font-size: 14px; }
+.notebook-site .named-sky--home { background: #eff1e4; border-color: #d4dcc8; border-radius: 5px; }
+.notebook-site .game-invitation { border-radius: 7px; }
+
+/* Detail pages keep their depth, with less decorative framing. */
+.notebook-site .page-heading { padding: 52px 0 38px; }
+.notebook-site .page-heading h1 { font: 400 62px/1.1 "Instrument Serif", Georgia, serif; letter-spacing: -1px; margin-top: 0; }
+.notebook-site .page-heading > p { max-width: 780px; font-size: 16px; margin-top: 21px; }
+.notebook-site .page-jumps { margin-top: 16px; }
+.notebook-site .page-next, .notebook-site .research-area, .notebook-site .research-vision, .notebook-site .background-section, .notebook-site .publication-tools { border-color: var(--personal-line); border-style: solid; border-width: 1px 0 0; }
+.notebook-site .page-next { border-bottom-width: 1px; }
+.notebook-site .research-intro img { transform: none; box-shadow: none; border-radius: 3px; }
+.notebook-site .research-area p, .notebook-site .research-intro p, .notebook-site .research-vision p { font-size: 15px; line-height: 1.85; }
+.notebook-site .research-lens { font-family: inherit; font-size: 12px; letter-spacing: .2px; color: var(--personal-accent); }
+.notebook-site :is(#mixed-reality, #multi-agent) .related-work { background: none; border-color: var(--personal-line); }
+.notebook-site .project-feature { border: 0; border-top: 2px solid #a7b594; border-radius: 0; background: none; padding: 28px 0 0; margin-bottom: 50px; }
+.notebook-site .project-feature-copy h2 { font: 400 43px/1.15 "Instrument Serif", Georgia, serif; letter-spacing: -.6px; margin-top: 13px; }
+.notebook-site .project-feature p, .notebook-site .project-small p { font-size: 15px; line-height: 1.85; }
+.notebook-site .project-feature-copy .text-link { margin-top: 12px; }
+.notebook-site .case-details { border-top: 1px solid var(--personal-line); margin-top: 18px; padding-top: 3px; }
+.notebook-site .case-detail-grid { gap: 32px; }
+.notebook-site .case-detail-grid p { font-size: 14px; }
+.notebook-site .project-pair { gap: 50px; }
+.notebook-site .project-small { border: 0; border-top: 2px solid #c9af8e; border-radius: 0; padding: 22px 0 0; background: none; }
+.notebook-site .project-small + .project-small { border-color: #b5a7c2; }
+.notebook-site .project-small h2 { font-size: 27px; }
+.notebook-site .project-small .tag { background: #eeeee2; }
+.notebook-site .project-small .award, .notebook-site .project-small .project-citation { font-size: 12px; }
+.notebook-site .about-photo { padding: 0; border: 0; transform: none; box-shadow: none; background: none; }
+.notebook-site .about-photo img { object-position: center 35%; border-radius: 3px; }
+.notebook-site .about-copy p:first-child { margin-top: 0; }
+.notebook-site .about-role-grid { gap: 50px; }
+.notebook-site .about-note { background: none; border: 0; border-top: 2px solid #a7b594; border-radius: 0; padding: 22px 0 0; }
+.notebook-site .about-note.note-peach { border-color: #c9af8e; }
+.notebook-site .about-note h3 { margin-top: 10px; }
+.notebook-site .about-note p, .notebook-site .background-section p { font-size: 15px; }
+.notebook-site .education-list p { font-size: 13px; }
+.notebook-site .notebook-off-duty { border: 0; border-top: 1px solid var(--personal-line); }
+
+@media (max-width: 1000px) {
+  .notebook-site .concept-header nav { gap: 17px; }
+  .notebook-site .notebook-hero { grid-template-columns: minmax(0, 1fr) 230px; gap: 45px; }
+  .notebook-site .notebook-copy h1 { font-size: 64px; }
+  .notebook-site .notebook-build-grid, .notebook-site .project-pair, .notebook-site .about-role-grid { gap: 34px; }
+}
+@media (max-width: 800px) {
+  .notebook-site .concept-header { gap: 15px; padding-bottom: 10px; }
+  .notebook-site .concept-header nav { display: flex; gap: 12px; border: 0; }
+  .notebook-site .notebook-hero { grid-template-columns: minmax(0, 1fr) 190px; gap: 35px; padding: 45px 0; }
+  .notebook-site .notebook-copy h1 { font-size: 58px; }
+  .notebook-site .notebook-copy .notebook-lead { font-size: 20px; }
+  .notebook-site .research-index-row { grid-template-columns: 100px minmax(0, 1fr) 20px; gap: 18px; }
+  .notebook-site .notebook-bio { grid-template-columns: 170px 1fr; gap: 35px; }
+  .notebook-site .notebook-space-note { grid-template-columns: 1fr 300px; gap: 30px; }
+  .notebook-site .visitor-constellation { grid-template-columns: 1fr 1.2fr; gap: 30px; }
+}
+@media (max-width: 600px) {
+  .notebook-site .wrap { width: calc(100% - 40px); }
+  .notebook-site .concept-header { padding-top: 20px; }
+  .notebook-site .concept-header .personal-brand { font-size: 18px; }
+  .notebook-site .concept-header nav { gap: 8px; font-size: 13px; }
+  .notebook-site .concept-header nav a { min-height: 44px; }
+  .notebook-site .header-star { font-size: 13px; padding-inline: 11px; }
+  .notebook-site .notebook-hero { grid-template-columns: 1fr; gap: 28px; padding: 35px 0 40px; }
+  .notebook-site .notebook-copy h1 { font-size: 58px; }
+  .notebook-site .notebook-copy .notebook-lead { font-size: 21px; margin-top: 20px; }
+  .notebook-site .intro-portrait { width: 170px; margin-top: 0; }
+  .notebook-site .intro-portrait img { aspect-ratio: 1; }
+  .notebook-site .notebook-section { margin-top: 38px; }
+  .notebook-site .notebook-work { margin-top: 0; }
+  .notebook-site .notebook-section-title { gap: 0; padding-bottom: 15px; }
+  .notebook-site .notebook-section-title h2 { font-size: 26px; }
+  .notebook-site .notebook-section-intro { margin-top: 0; }
+  .notebook-site .research-index-row { grid-template-columns: minmax(0, 1fr) 22px; gap: 6px 16px; padding: 20px 0; }
+  .notebook-site .research-index-topic { grid-column: 1; }
+  .notebook-site .research-index-row > div { grid-column: 1; grid-row: 2; }
+  .notebook-site .research-index-arrow { grid-column: 2; grid-row: 2; }
+  .notebook-site .research-index h3 { font-size: 19px; }
+  .notebook-site .notebook-build-grid, .notebook-site .notebook-bio { grid-template-columns: 1fr; gap: 28px; }
+  .notebook-site .notebook-build-grid h3 { font-size: 23px; }
+  .notebook-site .notebook-paper { grid-template-columns: 1fr; gap: 9px; padding-top: 22px; }
+  .notebook-site .paper-date { flex-direction: row; align-items: baseline; gap: 12px; }
+  .notebook-site .paper-date > span:first-child { font-size: 13px; }
+  .notebook-site .background-label h2 { font-size: 36px; }
+  .notebook-site .notebook-space-note { grid-template-columns: 1fr; gap: 24px; margin-top: 25px; }
+  .notebook-site .notebook-space-note h2 { font-size: 24px; }
+  .notebook-site .notebook-space-note .three-suns-card { max-width: 300px; }
+  .notebook-site .visitor-constellation { grid-template-columns: 1fr; gap: 24px; padding-top: 30px; margin-top: 15px; }
+  .notebook-site .constellation-copy h2 { font-size: 36px; }
+  .notebook-site .page-heading { padding: 34px 0 30px; }
+  .notebook-site .page-heading h1 { font-size: 50px; }
+  .notebook-site .page-heading > p { font-size: 15px; }
+  .notebook-site .project-feature { padding-top: 24px; }
+  .notebook-site .project-feature-copy h2 { font-size: 36px; }
+  .notebook-site .project-pair, .notebook-site .about-role-grid { gap: 30px; }
+  .notebook-site .about-photo { width: 200px; margin: 0; }
+  .notebook-site .concept-footer { gap: 12px; }
+}

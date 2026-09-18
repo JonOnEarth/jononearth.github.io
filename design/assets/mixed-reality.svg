@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="368" viewBox="0 0 600 368">
+  <rect width="600" height="368" fill="#ededf7"/>
+  <g fill="none" stroke="#c4c7dc" stroke-width="1"><ellipse cx="300" cy="186" rx="225" ry="104" transform="rotate(-17 300 186)"/><ellipse cx="300" cy="186" rx="180" ry="131" transform="rotate(17 300 186)"/><path d="M80 186h440M300 32v302" stroke-dasharray="3 6"/><circle cx="300" cy="186" r="129" stroke-dasharray="2 6"/></g>
+  <g fill="#f7f7fc" stroke="#9399b9" stroke-width="1.5"><path d="M226 140q0-23 23-23h102q23 0 23 23v67q0 28-28 28h-19l-27-16-27 16h-19q-28 0-28-28z"/><path d="M226 147q-15 0-15 15v23q0 15 15 15M374 147q15 0 15 15v23q0 15-15 15"/></g>
+  <rect x="242" y="140" width="116" height="57" rx="17" fill="#294dcc"/>
+  <g fill="none" stroke="#dce2ff" stroke-width="1.5"><path d="M254 168h13l8-13 12 28 12-27 11 21 8-9h28"/><path d="M267 151v34M329 151v34" opacity=".3"/></g>
+  <g fill="#ededf7" stroke="#949cbc" stroke-width="1.5"><circle cx="146" cy="100" r="18"/><circle cx="464" cy="123" r="18"/><circle cx="400" cy="284" r="18"/><circle cx="144" cy="252" r="18"/></g>
+  <g fill="#294dcc"><circle cx="146" cy="100" r="5"/><circle cx="464" cy="123" r="5"/><circle cx="400" cy="284" r="5"/><circle cx="144" cy="252" r="5"/></g>
+  <g font-family="monospace" font-size="9" letter-spacing="1.5" fill="#707693"><text x="25" y="28">HUMAN STATE</text><text x="405" y="345">MODEL · VERIFY</text></g>
+</svg>

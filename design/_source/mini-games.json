@@ -1,0 +1,32 @@
+{
+  "learning-groups": {
+    "title": "Find your constellation",
+    "teaser": "Six moons. Three pairs. Can a little local knowledge help everyone learn?",
+    "prompt": "Pair moons with similar temperatures. Find all three pairs and watch the prediction error shrink.",
+    "note": "A toy analogy for client grouping, not a privacy guarantee or a reproduction of the method.",
+    "connection": "Different clients have different data. Grouping related clients can help personalize what they learn together.",
+    "duration": "1 min",
+    "art": "moons",
+    "paper": "https://doi.org/10.1109/TPAMI.2025.3637562"
+  },
+  "rover-coordination": {
+    "title": "Lost Rovers",
+    "teaser": "Three rovers, an unknown planet, and twelve rounds to find your way.",
+    "prompt": "Recover three supply pods in 12 rounds. Select a rover, tap a neighboring tile to plan its step, then move the team.",
+    "note": "An exploration toy. The paper studies probabilistic evidence fusion and coordinated planning under explicit assumptions.",
+    "connection": "Shared observations reveal more of the map. Seeing teammates’ plans helps avoid repeated exploration. Try both map modes on the same planet.",
+    "duration": "2–3 min",
+    "art": "rovers",
+    "paper": "https://arxiv.org/html/2609.17384"
+  },
+  "risk-check": {
+    "title": "Mission control",
+    "teaser": "The next launch is your call. Is there enough evidence to go?",
+    "prompt": "Review three missions. Launch when the entire risk range is at or below 20%; otherwise take a reading or hold.",
+    "note": "Illustrative risk ranges in a fictional model. These are not real safety estimates.",
+    "connection": "A safety claim depends on both a model and the evidence. New observations can change what a system has reason to do.",
+    "duration": "1 min",
+    "art": "launch",
+    "paper": "https://lightninghkm.github.io/files/ISMAR25.pdf"
+  }
+}

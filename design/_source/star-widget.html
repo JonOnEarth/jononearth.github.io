@@ -1,0 +1,9 @@
+<dialog class="star-dialog" id="leave-a-star" aria-labelledby="star-dialog-title">
+  <div class="star-dialog-head"><div><span class="mini-kicker">Visitor constellation</span><h2 id="star-dialog-title">Leave a star.</h2></div><button type="button" class="star-close" aria-label="Close the constellation" autofocus>×</button></div>
+  <div class="named-sky named-sky--dialog" id="little-sky" aria-label="Visitor stars and names"></div>
+  <p class="star-storage-note" id="star-storage-note"></p>
+  <form id="little-star-form"><label for="little-star-name">Your name <span>or a nickname</span></label><div class="star-name-row"><input id="little-star-name" maxlength="32" placeholder="A passing explorer" autocomplete="nickname" required><button class="mini-primary" type="submit">Leave my star ✦</button></div><p class="star-small" id="little-star-privacy">Your name will appear beside your star.</p></form>
+  <div id="little-my-star" hidden><p id="little-star-welcome"></p><button type="button" class="mini-primary star-done">Back to exploring ↗</button></div>
+  <p id="little-star-feedback" class="star-feedback" role="status" aria-live="polite"></p>
+  <button type="button" class="sky-refresh" id="little-sky-refresh">Refresh the sky ↻</button>
+</dialog>
